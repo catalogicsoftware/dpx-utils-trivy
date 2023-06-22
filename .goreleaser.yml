@@ -1,6 +1,6 @@
 project_name: trivy
 builds:
-  - id: build-linux
+  - id: trivy
     main: cmd/trivy/main.go
     binary: trivy
     ldflags:
